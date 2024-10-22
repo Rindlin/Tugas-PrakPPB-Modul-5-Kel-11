@@ -1,0 +1,43 @@
+.cardProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2d3e50;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.githubAvatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.githubInfo {
+    text-align: center;
+}
+
+.githubName {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.githubFollowers {
+    font-size: 0.9em;
+    margin-bottom: 2px;
+}
+
+.githubLink {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.githubLink:hover {
+    text-decoration: underline;
+}
